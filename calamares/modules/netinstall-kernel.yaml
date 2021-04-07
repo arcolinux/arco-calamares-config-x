@@ -1,4 +1,4 @@
-- name: "Linux kernel"
+- name: "Installed by default - Linux kernel"
   description: "Updates and installs the latest linux kernel"
   critical: false
   hidden: false
