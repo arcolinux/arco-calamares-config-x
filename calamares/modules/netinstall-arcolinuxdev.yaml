@@ -1,0 +1,8 @@
+- name: "ArcoLinux Dev"
+  description: "Software for ArcoLinux developers and betatesters"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - flameshot
