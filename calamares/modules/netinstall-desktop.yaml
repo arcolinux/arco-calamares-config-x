@@ -1,3 +1,22 @@
+- name: "Desktop: Xfce"
+  description: "Installs xfce desktop"
+  critical: false
+  hidden: false
+  selected: false
+  immutable: true
+  expanded: false
+  packages:
+    - xfce4
+    - xfce4-goodies
+    - dmenu
+    - gmrun
+    - arcolinux-config-xfce-git
+    - arcolinux-local-xfce4-git
+    - arcolinux-logout-git
+    - arcolinux-root-git
+    - arcolinux-tweak-tool-git
+    - arcolinux-xfce-dconf-git
+    - arcolinux-xfce-git
 - name: "Desktop: Awesome"
   description: "Installs awesome desktop"
   critical: false
@@ -481,24 +500,6 @@
     - gvfs
     - dmenu
     - accountsservice
-- name: "Desktop: Xfce"
-  description: "Installs xfce desktop"
-  critical: false
-  hidden: false
-  selected: false
-  immutable: true
-  packages:
-    - xfce4
-    - xfce4-goodies
-    - dmenu
-    - gmrun
-    - arcolinux-config-xfce-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-root-git
-    - arcolinux-tweak-tool-git
-    - arcolinux-xfce-dconf-git
-    - arcolinux-xfce-git
 - name: "Desktop: Xmonad"
   description: "Installs xmonad desktop"
   critical: false
