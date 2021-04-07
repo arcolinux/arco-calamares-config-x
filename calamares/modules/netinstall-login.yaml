@@ -1,3 +1,28 @@
+- name: "Installed by default"
+  description: "Installs sddm - user enables sddm manually"
+  critical: false
+  hidden: false
+  selected: false
+  immutable: true
+  expanded: true
+  packages:
+    - sddm
+    - arcolinux-wallpapers-git
+    - arcolinux-sddm-sugar-candy-git
+- name: "Login Manager: Sddm"
+  description: "Installs sddm - user enables sddm manually"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-sddm-chili-git
+    - arcolinux-sddm-fralonra-git
+    - arcolinux-sddm-futuristic-git
+    - arcolinux-sddm-materia-git
+    - arcolinux-sddm-redrock-git
+    - arcolinux-sddm-slice-git
+    - arcolinux-sddm-sugar-candy-git
+    - arcolinux-sddm-urbanlifestyle-git
 - name: "Login Manager: Lightdm"
   description: "Installs lightdm - user enables lightdm manually"
   critical: false
@@ -8,24 +33,6 @@
     - lightdm-gtk-greeter
     - lightdm-gtk-greeter-settings
     - arcolinux-wallpapers-git
-- name: "Login Manager: Sddm"
-  description: "Installs sddm - user enables sddm manually"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - sddm
-    - arcolinux-wallpapers-git
-    - arcolinux-sddm-chili-git
-    - arcolinux-sddm-fralonra-git
-    - arcolinux-sddm-futuristic-git
-    - arcolinux-sddm-materia-git
-    - arcolinux-sddm-redrock-git
-    - arcolinux-sddm-slice-git
-    - arcolinux-sddm-sugar-candy-git
-      selected: true
-      immutable: true
-    - arcolinux-sddm-urbanlifestyle-git
 - name: "Login Manager: Gdm"
   description: "Installs gdm - user enables gdm manually"
   critical: false

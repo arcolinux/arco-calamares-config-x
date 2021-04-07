@@ -1,8 +1,10 @@
 - name: "Linux kernel"
-  description: "Installs the latest linux kernel (not the one from the iso)"
+  description: "Updates and installs the latest linux kernel"
   critical: false
   hidden: false
-  selected: false
+  selected: true
+  immutable: true
+  expanded: true
   packages:
     - linux
     - linux-headers

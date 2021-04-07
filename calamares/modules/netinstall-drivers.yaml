@@ -1,3 +1,25 @@
+- name: "Installed by default"
+  description: "Downloads and installs Nvidia for linux kernel - remove later if not needed"
+  critical: false
+  hidden: false
+  selected: true
+  immutable: true
+  expanded: true
+  packages:
+    - nvidia
+    - nvidia-settings
+    - nvidia-utils
+- name: "Nvidia-lts for linux-lts kernel"
+  description: "Installs nvidia-lts for linux-lts kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-lts
+    - linux-lts-headers
+    - nvidia-lts
+    - nvidia-settings
+    - nvidia-utils
 - name: "Xf86-video-intel"
   description: "Installs xf86-video-intel"
   critical: false
@@ -40,28 +62,6 @@
   selected: false
   packages:
     - xf86-video-openchrome
-- name: "Nvidia for linux kernel"
-  description: "Installs nvidia for linux kernel"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux
-    - linux-headers
-    - nvidia
-    - nvidia-settings
-    - nvidia-utils
-- name: "Nvidia-lts for linux-lts kernel"
-  description: "Installs nvidia-lts for linux-lts kernel"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-lts
-    - linux-lts-headers
-    - nvidia-lts
-    - nvidia-settings
-    - nvidia-utils
 - name: "Cuda toolkit"
   description: "Installs the Cuda Toolkit"
   critical: false
