@@ -486,6 +486,7 @@
   critical: false
   hidden: false
   selected: false
+  immutable: true
   packages:
     - xfce4
     - xfce4-goodies
