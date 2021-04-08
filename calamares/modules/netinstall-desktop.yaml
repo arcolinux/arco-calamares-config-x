@@ -1,22 +1,16 @@
 - name: "Desktop: Xfce"
-  description: "Installs xfce desktop"
+  description: "Xfce4 - installed by default"
   critical: false
   hidden: false
   selected: false
-  immutable: true
+  immutable: false
   expanded: false
   packages:
-    - xfce4
-    - xfce4-goodies
-    - dmenu
-    - gmrun
-    - arcolinux-config-xfce-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-logout-git
-    - arcolinux-root-git
-    - arcolinux-tweak-tool-git
-    - arcolinux-xfce-dconf-git
-    - arcolinux-xfce-git
+    - mousepad
+    - orage
+    - parole
+    - xfburn
+    - xfce4-artwork
 - name: "Desktop: Awesome"
   description: "Installs awesome desktop"
   critical: false
