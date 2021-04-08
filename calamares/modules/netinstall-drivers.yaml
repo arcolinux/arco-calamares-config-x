@@ -1,11 +1,13 @@
-- name: "Installed by default"
-  description: "Downloads and installs Nvidia for linux kernel - remove later if not needed"
+- name: "Nvidia installed by default - select NVIDIA in BIOS or UEFI"
+  description: "Downloads and installs the latest Nvidia for linux kernel"
   critical: false
   hidden: false
-  selected: true
-  immutable: true
-  expanded: true
+  selected: false
+  immutable: false
+  expanded: false
   packages:
+    - linux
+    - linux-headers
     - nvidia
     - nvidia-settings
     - nvidia-utils

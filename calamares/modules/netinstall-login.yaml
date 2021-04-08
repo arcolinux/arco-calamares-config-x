@@ -1,16 +1,5 @@
-- name: "Installed by default"
-  description: "Installs sddm - user enables sddm manually"
-  critical: false
-  hidden: false
-  selected: false
-  immutable: true
-  expanded: true
-  packages:
-    - sddm
-    - arcolinux-wallpapers-git
-    - arcolinux-sddm-sugar-candy-git
 - name: "Login Manager: Sddm"
-  description: "Installs sddm - user enables sddm manually"
+  description: "Installed by default - choose more themes"
   critical: false
   hidden: false
   selected: false
