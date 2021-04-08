@@ -1,5 +1,5 @@
-- name: "Nvidia installed by default - select NVIDIA in BIOS or UEFI"
-  description: "Downloads and installs the latest Nvidia for linux kernel"
+- name: "Nvidia is installed by default"
+  description: "Select NVIDIA in BIOS or UEFI - installs the latest Nvidia"
   critical: false
   hidden: false
   selected: false
