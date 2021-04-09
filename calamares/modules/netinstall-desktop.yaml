@@ -23,12 +23,14 @@
     - gmrun
     - picom
     - vicious
+    - volumeicon
     - arcolinux-awesome-git
     - arcolinux-awesome-dconf-git
     - arcolinux-config-awesome-git
     - arcolinux-logout-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-volumeicon-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -50,6 +52,7 @@
     - polybar
     - sutils-git
     - sxhkd
+    - volumeicon
     - xtitle-git
     - arcolinux-bspwm-git
     - arcolinux-bspwm-dconf-git
@@ -58,6 +61,7 @@
     - arcolinux-polybar-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-volumeicon-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -75,6 +79,7 @@
     - gnome
     - dconf-editor
     - guake
+    - arcolinux-guake-autostart-git
     - ttf-hack
     - arcolinux-budgie-git
     - arcolinux-config-budgie-git
@@ -108,18 +113,20 @@
   selected: false
   packages:
     - cwm
-    - arcolinux-cwm-git
-    - arcolinux-config-cwm-git
-    - arcolinux-cwm-dconf-git
     - volumeicon
     - sxhkd
     - dmenu
     - feh
     - picom
     - gmrun
+    - arcolinux-cwm-git
+    - arcolinux-config-cwm-git
+    - arcolinux-cwm-dconf-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-logout-git
+    - arcolinux-polybar-git     
+    - arcolinux-volumeicon-git    
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -127,7 +134,6 @@
     - arcolinux-xfce-git
     - xfce4-terminal
     - polybar
-    - arcolinux-polybar-git       
 - name: "Desktop: Deepin"
   description: "Installs deepin desktop"
   critical: false
@@ -158,9 +164,10 @@
     - arcolinux-dwm-slstatus-git
     - arcolinux-config-dwm-git
     - arcolinux-dwm-dconf-git
+    - arcolinux-logout-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-logout-git
+    - arcolinux-volumeicon-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -181,6 +188,7 @@
     - gnome
     - gnome-extra
     - guake
+    - arcolinux-guake-autostart-git
     - ttf-hack
     - arcolinux-gnome-git
     - arcolinux-config-gnome-git
@@ -202,6 +210,7 @@
     - polybar
     - sxhkd
     - xtitle-git
+    - volumeicon
     - arcolinux-config-herbstluftwm-git
     - arcolinux-herbstluftwm-git
     - arcolinux-herbstluftwm-dconf-git
@@ -209,6 +218,7 @@
     - arcolinux-polybar-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-volumeicon-git    
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -228,6 +238,7 @@
     - feh
     - picom
     - polybar
+    - volumeicon
     - arcolinux-config-i3wm-git
     - arcolinux-i3wm-git
     - arcolinux-i3wm-dconf-git
@@ -235,6 +246,7 @@
     - arcolinux-polybar-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-volumeicon-git    
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -252,12 +264,14 @@
     - dmenu
     - feh
     - picom
+    - volumeicon
     - arcolinux-config-icewm-git
     - arcolinux-icewm-git
     - arcolinux-icewm-dconf-git
     - arcolinux-logout-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-volumeicon-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -279,12 +293,14 @@
     - picom
     - sxhkd
     - xdgmenumaker
+    - volumeicon
     - arcolinux-config-jwm-git
     - arcolinux-jwm-dconf-git
     - arcolinux-jwm-git
     - arcolinux-logout-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-volumeicon-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -345,6 +361,7 @@
   selected: false
   packages:
     - openbox
+    - openbox-arc-git
     - dmenu
     - feh
     - geany
@@ -362,13 +379,14 @@
     - tint2
     - xcape
     - yad
+    - volumeicon
     - arcolinux-config-openbox-git
     - arcolinux-common-git
     - arcolinux-logout-git
     - arcolinux-nitrogen-git
     - arcolinux-obmenu-generator-git
     - arcolinux-openbox-dconf-git
-    - arcolinux-openboxb-git
+    - arcolinux-openbox-git
     - arcolinux-pipemenus-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
@@ -376,6 +394,7 @@
     - arcolinux-tint2-git
     - arcolinux-tint2-themes-git
     - arcolinux-tweak-tool-git
+    - arcolinux-volumeicon-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -421,12 +440,14 @@
     - gmrun
     - picom
     - python-psutil
+    - volumeicon
     - arcolinux-config-qtile-git
     - arcolinux-logout-git
     - arcolinux-qtile-git
     - arcolinux-qtile-dconf-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-volumeicon-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -445,12 +466,14 @@
     - feh
     - gmrun
     - picom
+    - volumeicon
     - arcolinux-config-spectrwm-git
     - arcolinux-logout-git
     - arcolinux-spectrwm-git
     - arcolinux-spectrwm-dconf-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-volumeicon-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -513,6 +536,7 @@
     - polybar
     - xmonad-log
     - xmonad-utils
+    - volumeicon
     - arcolinux-config-xmonad-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
@@ -520,6 +544,7 @@
     - arcolinux-tweak-tool-git
     - arcolinux-xmonad-dconf-git
     - arcolinux-xmonad-polybar-git
+    - arcolinux-volumeicon-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
