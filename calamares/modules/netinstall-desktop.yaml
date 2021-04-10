@@ -403,6 +403,9 @@
     - xcape
     - yad
     - volumeicon
+    - lxrandr
+    - obkey
+    - lxappearance-obconf
     - arcolinux-config-openbox-git
     - arcolinux-common-git
     - arcolinux-logout-git
