@@ -413,13 +413,28 @@
     - plasma-meta
     - breeze
     - cryfs
+    - encfs
+    - gocryptfs
+    - kate
     - kde-applications-meta
     - kde-system-meta
+    - kde-gtk-config
+    - kdenetwork-filesharing
     - kdeconnect
     - ktorrent
     - ocs-url
     - packagekit-qt5
     - partitionmanager
+    - systemd-kcm
+    - yakuake
+    - spectacle
+    - okular
+    - gwenview
+    - dolphin
+    - dolphin-plugins
+    - ark
+    - ffmpegthumbs
+    - sddm-kcm
     - surfn-arc-breeze-icons-git
     - arcolinux-arc-kde
     - arcolinux-plasma-git
