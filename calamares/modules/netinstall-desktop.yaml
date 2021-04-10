@@ -18,24 +18,29 @@
   selected: false
   packages:
     - awesome
+    - autorandr
     - dmenu
     - feh
     - gmrun
+    - lxappearance
     - picom
+    - rofi
     - vicious
     - volumeicon
     - arcolinux-awesome-git
     - arcolinux-awesome-dconf-git
     - arcolinux-config-awesome-git
+    - arcolinux-local-xfce4-git
     - arcolinux-logout-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
-    - arcolinux-local-xfce4-git
-    - arcolinux-xfce-git
     - xfce4-terminal
 - name: "Desktop: Bspwm"
   description: "Installs bspwm desktop"
@@ -54,11 +59,14 @@
     - sxhkd
     - volumeicon
     - xtitle-git
+    - rofi
     - arcolinux-bspwm-git
     - arcolinux-bspwm-dconf-git
     - arcolinux-config-bspwm-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
@@ -160,11 +168,14 @@
     - gsimplecal
     - volumeicon
     - gmrun
+    - rofi
     - arcolinux-dwm-git
     - arcolinux-dwm-slstatus-git
     - arcolinux-config-dwm-git
     - arcolinux-dwm-dconf-git
     - arcolinux-logout-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
@@ -211,11 +222,14 @@
     - sxhkd
     - xtitle-git
     - volumeicon
+    - rofi
     - arcolinux-config-herbstluftwm-git
     - arcolinux-herbstluftwm-git
     - arcolinux-herbstluftwm-dconf-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git    
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git    
@@ -239,11 +253,14 @@
     - picom
     - polybar
     - volumeicon
+    - rofi
     - arcolinux-config-i3wm-git
     - arcolinux-i3wm-git
     - arcolinux-i3wm-dconf-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git    
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git    
@@ -265,10 +282,13 @@
     - feh
     - picom
     - volumeicon
+    - rofi
     - arcolinux-config-icewm-git
     - arcolinux-icewm-git
     - arcolinux-icewm-dconf-git
     - arcolinux-logout-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git    
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
@@ -294,10 +314,13 @@
     - sxhkd
     - xdgmenumaker
     - volumeicon
+    - rofi
     - arcolinux-config-jwm-git
     - arcolinux-jwm-dconf-git
     - arcolinux-jwm-git
     - arcolinux-logout-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git    
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
@@ -438,6 +461,7 @@
     - surfn-arc-breeze-icons-git
     - arcolinux-arc-kde
     - arcolinux-plasma-git
+    - arcolinux-plasma-kservices-git
     - arcolinux-config-plasma-git
     - arcolinux-plasma-dconf-git
     - arcolinux-root-git
@@ -456,10 +480,13 @@
     - picom
     - python-psutil
     - volumeicon
+    - rofi
     - arcolinux-config-qtile-git
     - arcolinux-logout-git
     - arcolinux-qtile-git
     - arcolinux-qtile-dconf-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git    
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
@@ -482,10 +509,13 @@
     - gmrun
     - picom
     - volumeicon
+    - arcolinux-rofi-themes-git
     - arcolinux-config-spectrwm-git
     - arcolinux-logout-git
     - arcolinux-spectrwm-git
     - arcolinux-spectrwm-dconf-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git    
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
@@ -552,9 +582,12 @@
     - xmonad-log
     - xmonad-utils
     - volumeicon
+    - rofi
     - arcolinux-config-xmonad-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git    
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-xmonad-dconf-git
