@@ -28,6 +28,7 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - autorandr
     - awesome
@@ -36,6 +37,7 @@
     - gmrun
     - lxappearance
     - picom
+    - polkit-gnome
     - rofi
     - thunar
     - thunar-archive-plugin
@@ -61,6 +63,7 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - awesome-terminal-fonts
     - bspwm
@@ -69,6 +72,7 @@
     - gmrun
     - picom
     - polybar
+    - polkit-gnome
     - rofi
     - sutils-git
     - sxhkd
@@ -91,6 +95,7 @@
     - arcolinux-guake-autostart-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-wallpapers-git
     - budgie-desktop
     - budgie-extras
     - dconf-editor
@@ -109,6 +114,8 @@
     - arcolinux-config-cinnamon-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-wallpapers-git
+    - arcolinux-xfce-git
     - cinnamon
     - cinnamon-translations
     - gnome-screenshot
@@ -134,7 +141,9 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
+    - autorandr
     - cwm
     - dmenu
     - feh
@@ -159,6 +168,7 @@
     - arcolinux-deepin-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-wallpapers-git
     - deepin
     - deepin-extra
 - name: "Desktop: Dwm"
@@ -179,12 +189,14 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - dmenu
     - feh
     - gmrun
     - gsimplecal
     - picom
+    - polkit-gnome
     - rofi
     - sxhkd
     - thunar
@@ -210,6 +222,8 @@
     - arcolinux-guake-autostart-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-wallpapers-git
+    - dconf-editor
     - gnome
     - gnome-extra
     - guake
@@ -232,6 +246,7 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - awesome-terminal-fonts
     - dmenu
@@ -239,6 +254,7 @@
     - gmrun
     - herbstluftwm
     - picom
+    - polkit-gnome
     - polybar
     - rofi
     - sxhkd
@@ -267,6 +283,7 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - autotiling
     - dmenu
@@ -275,6 +292,7 @@
     - i3status
     - nitrogen
     - picom
+    - polkit-gnome
     - polybar
     - rofi
     - thunar
@@ -299,19 +317,25 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
+    - autorandr
     - dmenu
     - feh
     - icewm
     - picom
+    - polkit-gnome
     - rofi
     - thunar
     - thunar-archive-plugin
     - thunar-volman
     - volumeicon
     - xdgmenumaker
+    - xfce4-notifyd
     - xfce4-power-manager
+    - xfce4-screenshooter
     - xfce4-settings
+    - xfce4-taskmanager
     - xfce4-terminal
 - name: "Desktop: Jwm"
   description: "Installs jwm desktop"
@@ -330,12 +354,14 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - autorandr
     - dmenu
     - feh
     - jwm
     - picom
+    - polkit-gnome
     - rofi
     - sxhkd
     - thunar
@@ -361,6 +387,7 @@
     - arcolinux-lxqt-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - dmenu
     - lxqt
@@ -368,6 +395,7 @@
     - obconf-qt
     - pavucontrol-qt
     - picom
+    - polkit-gnome
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -387,6 +415,8 @@
     - arcolinux-mate-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-wallpapers-git
+    - arcolinux-xfce-git
     - dmenu
     - gnome-screenshot
     - mate
@@ -416,6 +446,7 @@
     - arcolinux-tint2-themes-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - dmenu
     - feh
@@ -435,6 +466,7 @@
     - openbox-arc-git
     - perl-linux-desktopfiles
     - picom
+    - polkit-gnome
     - rofi
     - thunar
     - thunar-archive-plugin
@@ -453,6 +485,9 @@
   hidden: false
   selected: false
   packages:
+    - plasma-meta
+    - kde-applications-meta
+    - kde-system-meta   
     - arcolinux-arc-kde
     - arcolinux-config-plasma-git
     - arcolinux-plasma-dconf-git
@@ -460,9 +495,11 @@
     - arcolinux-plasma-kservices-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - arcolinux-wallpapers-git
     - ark
     - breeze
     - cryfs
+    - discover
     - dolphin
     - dolphin-plugins
     - encfs
@@ -470,9 +507,7 @@
     - gocryptfs
     - gwenview
     - kate
-    - kde-applications-meta
     - kde-gtk-config
-    - kde-system-meta
     - kdeconnect
     - kdenetwork-filesharing
     - ktorrent
@@ -480,7 +515,6 @@
     - okular
     - packagekit-qt5
     - partitionmanager
-    - plasma-meta
     - sddm-kcm
     - spectacle
     - surfn-arc-breeze-icons-git
@@ -503,12 +537,14 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - awesome-terminal-fonts
     - dmenu
     - feh
     - gmrun
     - picom
+    - polkit-gnome
     - python-psutil
     - qtile
     - rofi
@@ -523,7 +559,6 @@
   hidden: false
   selected: false
   packages:
-    - accountsservice
     - arcolinux-config-all-desktops-git
     - arcolinux-config-spectrwm-git
     - arcolinux-local-xfce4-git
@@ -536,13 +571,16 @@
     - arcolinux-spectrwm-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - awesome-terminal-fonts
     - dmenu
     - feh
     - gmrun
     - picom
+    - polkit-gnome
     - polybar
+    - python-psutil
     - spectrwm
     - sutils-git
     - sxhkd
@@ -559,7 +597,6 @@
   hidden: false
   selected: false
   packages:
-    - accountsservice
     - arcolinux-config-all-desktops-git
     - arcolinux-config-ukui-git
     - arcolinux-local-xfce4-git
@@ -569,6 +606,7 @@
     - arcolinux-ukui-dconf-git
     - arcolinux-ukui-git
     - arcolinux-xfce-git
+    - arcolinux-wallpapers-git
     - dmenu
     - gnome-screenshot
     - gvfs
@@ -600,6 +638,7 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - arcolinux-xmonad-dconf-git
     - arcolinux-xmonad-polybar-git
