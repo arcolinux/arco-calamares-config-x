@@ -485,7 +485,7 @@
   hidden: false
   selected: false
   packages:
-    - plasma-meta
+    - plasma
     - kde-applications-meta
     - kde-system-meta   
     - arcolinux-arc-kde
