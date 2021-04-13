@@ -319,7 +319,7 @@
   packages:
     - arcolinux-config-all-desktops-git
     - arcolinux-config-icewm-git
-    arcolinux-gtk3-surfn-arc-git
+    - arcolinux-gtk3-surfn-arc-git
     - arcolinux-icewm-dconf-git
     - arcolinux-icewm-git
     - arcolinux-local-xfce4-git
