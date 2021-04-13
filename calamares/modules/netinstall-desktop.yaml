@@ -288,6 +288,7 @@
     - autotiling
     - dmenu
     - feh
+    - i3blocks
     - i3-gaps
     - i3status
     - nitrogen
@@ -432,13 +433,18 @@
     - arcolinux-common-git
     - arcolinux-config-all-desktops-git
     - arcolinux-config-openbox-git
+    - arcolinux-docs-git
+    - arcolinux-geany-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-nitrogen-git
     - arcolinux-obmenu-generator-git
     - arcolinux-openbox-dconf-git
     - arcolinux-openbox-git
+    - arcolinux-openbox-themes-git
     - arcolinux-pipemenus-git
+    - arcolinux-plank-git
+    - arcolinux-plank-themes-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
@@ -454,6 +460,7 @@
     - gksu
     - gmrun
     - gnome-screenshot
+    - gsimplecal
     - gtk2-perl
     - lxappearance-obconf
     - lxrandr
@@ -464,8 +471,10 @@
     - obmenu3
     - openbox
     - openbox-arc-git
+    - openbox-themes-pambudi-git
     - perl-linux-desktopfiles
     - picom
+    - plank
     - polkit-gnome
     - rofi
     - thunar
