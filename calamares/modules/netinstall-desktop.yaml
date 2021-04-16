@@ -6,7 +6,6 @@
   immutable: false
   expanded: false
   packages:
-    - xfce4-panel
     - xfce4-panel-profiles
     - arcolinux-xfce4-panel-profiles-git
 - name: "Desktop: Awesome"
