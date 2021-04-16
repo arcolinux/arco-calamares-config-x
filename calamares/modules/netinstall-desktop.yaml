@@ -6,11 +6,9 @@
   immutable: false
   expanded: false
   packages:
-    - mousepad
-    - orage
-    - parole
-    - xfburn
-    - xfce4-artwork
+    - xfce4-panel
+    - xfce4-panel-profiles
+    - arcolinux-xfce4-panel-profiles-git
 - name: "Desktop: Awesome"
   description: "Installs awesome desktop"
   critical: false
