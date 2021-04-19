@@ -7,7 +7,7 @@
   expanded: false
   packages:
     - xfce4-panel-profiles
-    - arcolinux-xfce4-panel-profiles-git
+    - arcolinux-xfce-panel-profiles-git
 - name: "Desktop: Awesome"
   description: "Installs awesome desktop"
   critical: false
