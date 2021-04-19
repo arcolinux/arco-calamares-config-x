@@ -12,6 +12,7 @@
     - bleachbit
     - catfish
     - cpu-x
+    - dconf-editor
     - dmidecode
     - evince
     - flatpak
@@ -21,7 +22,6 @@
     - gtop
     - gufw
     - hddtemp
-    - htop
     - kbackup
     - lm_sensors
     - lshw
