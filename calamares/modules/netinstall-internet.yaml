@@ -6,6 +6,7 @@
   expanded: true
   packages:
     - brave
+    - chromium
     - deluge
     - dropbox
     - evolution
@@ -26,7 +27,9 @@
     - nextcloud-client
     - opera
     - pidgin
+    - qbittorrent
     - qutebrowser
     - thunderbird
     - torbrowser-launcher
     - transmission-gtk
+    - vivaldi

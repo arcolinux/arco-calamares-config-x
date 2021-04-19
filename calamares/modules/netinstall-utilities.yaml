@@ -10,23 +10,38 @@
     - baobab
     - bashtop
     - bleachbit
+    - catfish
     - cpu-x
+    - dmidecode
+    - evince
     - flatpak
     - glances
     - google-earth-pro
     - grsync
+    - gtop
+    - gufw
+    - hddtemp
+    - htop
     - kbackup
+    - lm_sensors
+    - lshw
     - open-vm-tools
     - optimus-manager
+    - meld
     - octopi
+    - pamac-aur
     - powertop
     - putty
     - screenfetch
     - sigil
+    - simple-scan
     - slimbookbattery
     - snapd
     - synapse
     - sysprof
     - systemd-manager
+    - timeshift
     - vnstat
     - wireshark-qt
+    - wttr
+    - youtube-dl

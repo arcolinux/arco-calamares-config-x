@@ -6,11 +6,20 @@
   expanded: true
   packages:
     - cheese
+    - font-manager-git
+    - galculator
+    - gpick
     - flameshot
     - liferea
     - mediainfo
     - mcomix
+    - nitrogen
+    - nomacs
     - pdfarranger
+    - plank
+    - arcolinux-plank-themes-git
+    - screenkey-git
+    - vim-plugins
 - name: "Fonts"
   description: "Fonts"
   critical: false
@@ -18,7 +27,10 @@
   selected: false
   expanded: true
   packages:
-    - terminus-font
+    - ttf-bitstream-vera
+    - ttf-fira-code
+    - ttf-inconsolata
+    - ttf-liberation
 - name: "Git"
   description: "Git applications"
   critical: false
@@ -26,6 +38,7 @@
   selected: false
   expanded: true
   packages:
+    - gitahead-bin
     - gitg
     - gitfiend
     - gitkraken
