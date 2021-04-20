@@ -23,7 +23,6 @@
     - gufw
     - hddtemp
     - kbackup
-    - lm_sensors
     - lshw
     - open-vm-tools
     - optimus-manager
