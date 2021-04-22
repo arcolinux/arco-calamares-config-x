@@ -95,7 +95,6 @@
     - arcolinux-wallpapers-git
     - budgie-desktop
     - budgie-extras
-    - dconf-editor
     - gnome
     - guake
     - ttf-hack
@@ -257,7 +256,6 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-wallpapers-git
-    - dconf-editor
     - gnome
     - gnome-extra
     - guake

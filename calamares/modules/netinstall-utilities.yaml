@@ -12,7 +12,6 @@
     - bleachbit
     - catfish
     - cpu-x
-    - dconf-editor
     - dmidecode
     - evince
     - flatpak

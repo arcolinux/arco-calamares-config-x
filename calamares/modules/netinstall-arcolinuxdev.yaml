@@ -6,7 +6,6 @@
   expanded: true
   packages:
     - discord
-    - dconf-editor
     - firefox
     - flameshot
     - gitahead-bin    
