@@ -7,7 +7,7 @@
   packages:
     - discord
     - firefox
-    - flameshot
+    - flameshot-git
     - gitahead-bin    
     - meld
     - simplescreenrecorder
