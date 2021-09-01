@@ -21,9 +21,13 @@
 #tput setaf 7 = gray 
 #tput setaf 8 = light blue
 
+# use ls -d */ > list to get the list of the created githubs and copy/paste in
+# in /home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild-3party/ArcoLinux_3th_party/
+
 count=0
 
-directories=(albert
+directories=(alacritty-themes
+albert
 alpm_octopi_utils
 alsi
 amarok
@@ -32,6 +36,7 @@ archlinux-appstream-data-pamac
 arc-kde
 auto-cpufreq
 autotiling
+base16-alacritty-git
 bash-pipes
 bauh
 betterlockscreen
@@ -43,12 +48,16 @@ caffeine
 caffeine-ng
 cava
 chrome-gnome-shell
+chromium-widevine
+ckb-next-git
+clapper
 cmatrix-git
 cnijfilter2-mg7700
 conky-lua-archers
 cpufetch-git
 cpuid
 cpu-x
+.current-version
 curseradio-git
 cwm
 cxxmatrix-git
@@ -64,6 +73,8 @@ flameshot-git
 font-manager-git
 fonts-tlwg
 fvwm3-git
+gamehub-bin
+gamescope
 gconf
 gitahead-bin
 gksu
@@ -77,6 +88,7 @@ gnome-system-tools
 gnome-terminal-transparency
 golang-github-godbus-dbus
 gotop-bin
+goverlay-bin
 gwe
 halo-icons-git
 hardcode-fixer-git
@@ -86,9 +98,11 @@ i3lock-color
 imagewriter
 inxi
 iso-flag-png
+itch
 jade-application-kit
 kazam
 ksuperkey
+kwin-scripts-forceblur
 kwin-scripts-krohnkite-git
 lastpass
 legendary
@@ -97,15 +111,19 @@ libblocksruntime
 libcpuid
 libdispatch
 libgksu
+libglade
 liboobs
 libopenmpt
+libpamac-aur
 libpamac-full
 list
 lohit-fonts
 lxqt-arc-dark-theme-git
+mangohud
 mate-tweak
 megasync-bin
 menulibre
+minigalaxy
 mintlocale
 mintstick-git
 mono-upnp-git
@@ -137,6 +155,7 @@ oxy-neon
 pacback
 packages-needed-to-makepkg.sh
 pamac-all
+pamac-aur
 paru
 paru-bin
 paru-git
@@ -153,6 +172,9 @@ polybar
 ponymix
 pop-shell-shortcuts-git
 powerpill
+prot16-xfce4-terminal
+proton-community-updater
+protonup-git
 pycrc
 pygtk
 python2-gobject2
@@ -166,11 +188,13 @@ python-hsaudiotag3k
 python-injector
 python-inotify-simple
 python-isounidecode
+python-polib
 python-pulse-control
 python-pulsectl
 python-py3nvml
 python-pylyrics
 python-pyparted
+python-pypresence
 python-pysdl2
 python-stagger
 python-suntime
@@ -178,16 +202,20 @@ python-tekore
 python-vdf
 qobbar-git
 qt4
+qtwebflix-git
 quicktile
 radiotray
+rare
 rarian
 rate-arch-mirrors-bin
+replay-sorcery
 retroarch-autoconfig-udev-git
 rplay
 sayonara-player
 scangearmp2-mg7700
 screenkey-git
 sddm-sugar-candy-git
+simplicity-sddm-theme-git
 slimbookbattery
 slstatus-git
 slurm
@@ -196,6 +224,7 @@ snapd-glib
 speedtest-cli-git
 spotifywm-git
 stacer
+stacer-bin
 steam-buddy
 steam-tweaks
 sublime-text-4
@@ -206,6 +235,7 @@ system-tools-backends
 taglib-extras
 taglib-sharp-git
 tauon-music-box
+tempus-themes-xfce4-terminal-git
 termite
 termite-terminfo
 theme.sh-git
@@ -223,10 +253,12 @@ tty-clock
 tuxboot
 tuxboot-git
 ufetch-git
+ulauncher
 unimatrix-git
 urxvt-fullscreen
 urxvt-resize-font-git
 ventoy-bin
+vkbasalt
 vmware-keymaps
 vtop
 woeusb
@@ -236,6 +268,7 @@ xcursor-arch-cursor-complete
 xcursor-breeze
 xdgmenumaker
 xfce4-panel-profiles
+xfce4-terminal-base16-colors-git
 xlunch-git
 xmonad-log
 xtitle-git
@@ -243,6 +276,7 @@ yay
 yay-bin
 yay-git
 yin-yang-git
+youtube-dl-gui-git
 zafiro-icon-theme
 zscroll-git
 zsh-autosuggestions-git
@@ -251,52 +285,12 @@ zsh-fast-syntax-highlighting
 zsh-history-substring-search-git
 zsh-syntax-highlighting-git
 zsh-theme-powerlevel10k-git
-arcolinux-teamviewer
-bitwarden-bin
-brackets-bin
-brave-bin
-build-xl.sh
-dropbox
-enpass-bin
-etcher-bin
-faba-icon-theme-git
-faba-mono-icons-git
-geekbench
-gitfiend
-gitkraken
-google-chrome
-google-earth-pro
-icecat-bin
-insync
-librewolf-bin
-list
-losslesscut-bin
-mailspring
-minecraft-launcher
-moka-icon-theme-git
-moneydance
-mullvad-vpn-bin
-neverball
-onlyoffice-bin
-openoffice-bin
-paper-icon-theme
-plex-media-player
-plex-media-server
-skypeforlinux-stable-bin
-slack-desktop
-spotify
-teams
-tor-browser
-ttf-wps-fonts
-viber
-visual-studio-code-bin
-vivaldi-widevine
-whatsapp-nativefier
-wps-office
-zoom
 )
 
 #for name in $(ls -d */); do
+
+path="/home/erik/ARCO/ARCOLINUX-CAL/arco-calamares-config-xs/check-packages.sh"
+
 for name in "${directories[@]}"; do
 	count=$[count+1]
 	echo
@@ -307,7 +301,7 @@ for name in "${directories[@]}"; do
 	echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	tput sgr0;
 
-	pt $name
+	rg $name
 	
 	tput setaf 3;
 	echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
