@@ -31,7 +31,6 @@
     - awesome
     - dmenu
     - feh
-    - gmrun
     - lxappearance
     - picom
     - polkit-gnome
@@ -66,7 +65,6 @@
     - bspwm
     - dmenu
     - feh
-    - gmrun
     - picom
     - polybar
     - polkit-gnome
@@ -156,7 +154,6 @@
     - cwm
     - dmenu
     - feh
-    - gmrun
     - picom
     - polybar
     - sxhkd
@@ -180,6 +177,42 @@
     - arcolinux-wallpapers-git
     - deepin
     - deepin-extra
+- name: "Desktop: Dusk"
+  description: "Installs dusk desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-config-all-desktops-git
+    - arcolinux-dconf-all-desktops-git
+    - arcolinux-dusk-git
+    - arcolinux-dwm-st-git
+    - arcolinux-gtk3-sardi-arc-git
+    - arcolinux-local-xfce4-git
+    - arcolinux-meta-logout
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
+    - arcolinux-root-git
+    - arcolinux-tweak-tool-git
+    - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
+    - arcolinux-xfce-git
+    - dmenu
+    - feh
+    - picom
+    - polkit-gnome
+    - rofi
+    - sxhkd
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
+    - xfce4-terminal
 - name: "Desktop: Dwm"
   description: "Installs dwm desktop"
   critical: false
@@ -202,7 +235,6 @@
     - arcolinux-xfce-git
     - dmenu
     - feh
-    - gmrun
     - gsimplecal
     - picom
     - polkit-gnome
@@ -240,7 +272,6 @@
     - dmenu
     - feh
     - fvwm3-git
-    - gmrun
     - gsimplecal
     - picom
     - polkit-gnome
@@ -297,7 +328,6 @@
     - awesome-terminal-fonts
     - dmenu
     - feh
-    - gmrun
     - herbstluftwm
     - picom
     - polkit-gnome
@@ -545,7 +575,6 @@
     - feh
     - geany
     - gksu
-    - gmrun
     - gnome-screenshot
     - gsimplecal
     - gtk2-perl
@@ -639,7 +668,6 @@
     - awesome-terminal-fonts
     - dmenu
     - feh
-    - gmrun
     - picom
     - polkit-gnome
     - python-psutil
@@ -674,7 +702,6 @@
     - awesome-terminal-fonts
     - dmenu
     - feh
-    - gmrun
     - picom
     - polkit-gnome
     - polybar
@@ -743,7 +770,6 @@
     - awesome-terminal-fonts
     - dmenu
     - feh
-    - gmrun
     - haskell-dbus
     - perl-checkupdates-aur
     - perl-www-aur
