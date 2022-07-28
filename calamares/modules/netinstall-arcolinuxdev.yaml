@@ -5,7 +5,7 @@
   selected: false
   expanded: true
   packages:
-	- chromium
+    - chromium
     - discord
     - flameshot-git
     - gitahead-bin
