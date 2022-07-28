@@ -5,12 +5,14 @@
   selected: false
   expanded: true
   packages:
+	- chromium
     - discord
-    - firefox
     - flameshot-git
-    - gitahead-bin    
+    - gitahead-bin
     - meld
     - simplescreenrecorder
     - sublime-text-4
     - telegram-desktop
-    - the_platinum_searcher-bin
+    - vivaldi
+    - vivaldi-ffmpeg-codecs
+    - vivaldi-widevine
