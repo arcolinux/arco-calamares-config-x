@@ -139,7 +139,6 @@ numix-icon-theme-git
 numix-kde-theme-git
 nvidia-xrun
 nvtop-git
-obkey-git
 obmenu3
 obmenu-generator
 ocs-url
